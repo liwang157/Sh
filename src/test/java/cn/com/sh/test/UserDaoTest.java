@@ -13,6 +13,7 @@ public class UserDaoTest extends JUnitDaoBase {
 	@Test
 	public void testGetAll() {
 		System.out.println(userService.getAll().size());
+		System.out.println("test");
 	}
 
 }
